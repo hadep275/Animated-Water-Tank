@@ -33,8 +33,8 @@
         width: 40vh;
         height: 40vh;
         content: "";
-        background-color: #b9f0ff;
-        border-radius: 15vh;
+        background-color: #a4eafd;
+        border-radius: 16vh;
         position: absolute;
         left: 50%;
         top: calc(100% - var(--completion) + var(--offset));
@@ -48,10 +48,10 @@
       }
       .indicator1::after {
         display: block;
-        width: 50vh;
-        height: 50vh;
+        width: 45vh;
+        height: 44vh;
         content: "";
-        background-color: #d5c6fe;
+        background-color: #b9f0ff;
         border-radius: 15vh;
         position: absolute;
         left: 50%;
