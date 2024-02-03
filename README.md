@@ -16,7 +16,7 @@ This project showcases a dynamic water tank animation controlled by a range inpu
 
 ### Browser Demo
 
-[Interact with the project live in your browser!](#) (Replace with your actual browser demo link)
+[Interact with the project live in your browser!](https://hadep275.github.io/Animated-Water-Tank/)
 
 ## Features
 
@@ -30,7 +30,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/animated-water-tank.git
+   git clone https://github.com/hadep275/Animated-Water-Tank.git
    ```
 
 2. Navigate to the project directory:
