@@ -146,3 +146,9 @@
           rotate: 360deg;
         }
       }
+input {
+        height: 80px;
+        width: 100%;
+        background: url(droplet-solid.svg);
+        cursor: pointer;
+      }
