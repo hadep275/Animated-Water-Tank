@@ -42,6 +42,39 @@
         animation: spin 5s linear infinite;
       }
       @keyframes spin {
+        10% {
+          rotate: 36deg;
+        }
+        20% {
+          rotate: 66deg;
+        }
+        30% {
+          rotate: 99deg;
+          border-radius: 20% 24% 41% 59%/ 40% 50% 34% 53%;
+          transform: translateY(1%) translateX(1%) scaleY(0.8) scaleX(0.7);
+        }
+        40% {
+          rotate: 99deg;
+        }
+        50% {
+          rotate: 140deg;
+        }
+        60% {
+          rotate: 190deg;
+        }
+        70% {
+          rotate: 230deg;
+          border-radius: 75% 4% 31% -59%/ -57% 94% 15% 53%;
+          transform: translateY(1%) translateX(1%) scaleY(1) scaleX(0.7);
+        }
+        80% {
+          rotate: 260deg;
+          border-radius: 45% 4% 71% 59%/ 57% -94% 15% 53%;
+          transform: translateY(1%) translateX(1%) scaleY(0.9) scaleX(0.9);
+        }
+        90% {
+          rotate: 300deg;
+        }
         100% {
           rotate: 360deg;
         }
@@ -49,7 +82,7 @@
       .indicator1::after {
         display: block;
         width: 45vh;
-        height: 44vh;
+        height: 45vh;
         content: "";
         background-color: #b9f0ff;
         border-radius: 15vh;
@@ -57,9 +90,58 @@
         left: 50%;
         top: calc(100% - var(--completion) + var(--offset));
         translate: -50% 0;
-        animation: spin 5s linear infinite;
+        animation: spin2 5s linear infinite;
       }
-      @keyframes spin {
+      @keyframes spin2 {
+        10% {
+          rotate: 36deg;
+        }
+        20% {
+          rotate: 66deg;
+          border-radius: 75% 4% 31% -59%/ -57% 94% 15% 53%;
+          transform: translateY(20%) translateX(5%) scaleY(1.2) scaleX(1.2);
+        }
+        30% {
+          rotate: 99deg;
+        }
+        40% {
+          rotate: 99deg;
+        }
+        50% {
+          rotate: 140deg;
+          border-radius: 55% 54% 51% 59%/ 57% 54% 54% 53%;
+          transform: translateY(10%) translateX(5%) scaleY(0.8) scaleX(1.1);
+        }
+        60% {
+          rotate: 190deg;
+        }
+        70% {
+          rotate: 230deg;
+        }
+        80% {
+          rotate: 260deg;
+        }
+        90% {
+          rotate: 300deg;
+        }
+        100% {
+          rotate: 360deg;
+        }
+      }
+      .indicator2::after {
+        display: block;
+        width: 45vh;
+        height: 45vh;
+        content: "";
+        background-color: #b9ebff;
+        border-radius: 15vh;
+        position: absolute;
+        left: 50%;
+        top: calc(100% - var(--completion) + var(--offset));
+        translate: -50% 0;
+        animation: spin3 5s linear infinite;
+      }
+      @keyframes spin3 {
         100% {
           rotate: 360deg;
         }
