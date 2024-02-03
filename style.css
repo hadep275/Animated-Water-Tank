@@ -51,7 +51,7 @@
         30% {
           rotate: 99deg;
           border-radius: 20% 24% 41% 59%/ 40% 50% 34% 53%;
-          transform: translateY(1%) translateX(1%) scaleY(0.8) scaleX(0.7);
+          transform: translateY(1%) translateX(1%) scaleY(0.9) scaleX(0.9);
         }
         40% {
           rotate: 99deg;
@@ -65,7 +65,7 @@
         70% {
           rotate: 230deg;
           border-radius: 75% 4% 31% -59%/ -57% 94% 15% 53%;
-          transform: translateY(1%) translateX(1%) scaleY(1) scaleX(0.7);
+          transform: translateY(1%) translateX(1%) scaleY(1) scaleX(0.9);
         }
         80% {
           rotate: 260deg;
@@ -109,7 +109,7 @@
         }
         50% {
           rotate: 140deg;
-          border-radius: 55% 54% 51% 59%/ 57% 54% 54% 53%;
+          border-radius: 55% 54% 51% 49%/ 37% 54% 54% 53%;
           transform: translateY(10%) translateX(5%) scaleY(0.8) scaleX(1.1);
         }
         60% {
